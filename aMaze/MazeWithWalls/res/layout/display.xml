@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?><LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:textColor="@android:color/white"
+        android:id="@+id/level_display"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="30dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Level: " />
+    
+    <TextView
+        android:textColor="@android:color/white"
+        android:id="@+id/status_display"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="30dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Status: " />
+    
+    <TextView
+        android:textColor="@android:color/white"
+        android:id="@+id/successes_display"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="30dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Successes: " />    
+
+    <TextView
+        android:textColor="@android:color/white"
+        android:id="@+id/average_display"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="30dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Average time: " />
+    
+        <TextView
+        android:textColor="@android:color/white"
+        android:id="@+id/best_display"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="30dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Best time: " />
+    
+
+</LinearLayout>

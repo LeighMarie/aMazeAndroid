@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical" >
+    
+
+    <Button
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:textColor="@android:color/white"
+    android:background="#FF0000"
+    android:text="Beat Our Levels" 
+    android:layout_marginTop="30dp"
+    android:onClick="onClickPlayList" />
+    
+    <Button
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Brag About Your Times" 
+    android:textColor="@android:color/white"
+    android:background="#FF0000"
+    android:layout_marginTop="30dp"
+    android:onClick="onClickTimeList"/>
+    
+    <!--   <Button
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Create Your Challenges" 
+    android:layout_marginTop="30dp"
+    android:onClick="onClickGrid"/> -->
+    
+<ImageView
+    android:layout_width= "fill_parent"
+    android:layout_height= "fill_parent"
+    android:scaleType= "fitXY"
+    android:src="@drawable/amaze"/>
+</LinearLayout>
